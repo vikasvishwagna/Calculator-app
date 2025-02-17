@@ -1,7 +1,63 @@
-.Container{
-  background: red;
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family:'Roboto', sans-serif; 
+}
+
+.h1{
+  text-align: center;
+  font-weight: 500;
+}
+
+.input-container{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  /* background-color: aqua; */
+
+}
+
+.input-container input{
+  width: 350px;
+  height: 70px;
+  border: 2px solid black;
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border: 2px solid black;
+  width: 350px;
+  height: 370px;
+  margin-left: 580px;
+}
+
+.button{
+  padding: 25px;
+  margin: 0px 10px 10px 0px;
+  justify-content: space-around;
+  width: 70px;
+  height: 40px;
+  text-align:center;
+  border: 2px solid black;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.reset{
+  width: 145px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.equalTo{
+  width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
